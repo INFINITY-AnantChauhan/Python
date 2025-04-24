@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f1893c0b312705495bd5e1078a6ace8a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f1893c0b312705495bd5e1078a6ace8a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f1893c0b312705495bd5e1078a6ace8a = L.map(
+                "map_f1893c0b312705495bd5e1078a6ace8a",
+                {
+                    center: [28.6, 77.2],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0daf5a381eeab5033b5f8517694c849e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_0daf5a381eeab5033b5f8517694c849e.addTo(map_f1893c0b312705495bd5e1078a6ace8a);
+        
+    
+            var circle_marker_37b3b827fc339d5c26eacacb5bfe7059 = L.circleMarker(
+                [30.3165, 78.0322],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f1893c0b312705495bd5e1078a6ace8a);
+        
+    
+        var popup_e911c661efe9b2a30e009f09b7157ff4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b16120606aa0fd0702d007600e43e172 = $(`<div id="html_b16120606aa0fd0702d007600e43e172" style="width: 100.0%; height: 100.0%;">Dehradun Traffic: 15 vehicles</div>`)[0];
+                popup_e911c661efe9b2a30e009f09b7157ff4.setContent(html_b16120606aa0fd0702d007600e43e172);
+            
+        
+
+        circle_marker_37b3b827fc339d5c26eacacb5bfe7059.bindPopup(popup_e911c661efe9b2a30e009f09b7157ff4)
+        ;
+
+        
+    
+    
+            var circle_marker_e7a0fed19259d1e7a30807928292f959 = L.circleMarker(
+                [28.7041, 77.1025],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f1893c0b312705495bd5e1078a6ace8a);
+        
+    
+        var popup_274db2fa333f935313daecf9eb9c66a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e8cb9bfe47a06e660662dfbeff17781e = $(`<div id="html_e8cb9bfe47a06e660662dfbeff17781e" style="width: 100.0%; height: 100.0%;">Delhi Traffic: 14 vehicles</div>`)[0];
+                popup_274db2fa333f935313daecf9eb9c66a5.setContent(html_e8cb9bfe47a06e660662dfbeff17781e);
+            
+        
+
+        circle_marker_e7a0fed19259d1e7a30807928292f959.bindPopup(popup_274db2fa333f935313daecf9eb9c66a5)
+        ;
+
+        
+    
+    
+            var circle_marker_70bb5b7c0df53cb6a4f11f2850ed5550 = L.circleMarker(
+                [28.5355, 77.391],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f1893c0b312705495bd5e1078a6ace8a);
+        
+    
+        var popup_e4d93b145bf1fcdf4aaecd9dbe1640e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc7eba5d71530d408a9461dd1fae58bd = $(`<div id="html_dc7eba5d71530d408a9461dd1fae58bd" style="width: 100.0%; height: 100.0%;">Noida Traffic: 10 vehicles</div>`)[0];
+                popup_e4d93b145bf1fcdf4aaecd9dbe1640e5.setContent(html_dc7eba5d71530d408a9461dd1fae58bd);
+            
+        
+
+        circle_marker_70bb5b7c0df53cb6a4f11f2850ed5550.bindPopup(popup_e4d93b145bf1fcdf4aaecd9dbe1640e5)
+        ;
+
+        
+    
+    
+            var circle_marker_b2175dc9cc886b0a1de3121a6659fb73 = L.circleMarker(
+                [26.9124, 75.7873],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_f1893c0b312705495bd5e1078a6ace8a);
+        
+    
+        var popup_26e0c8fd4074b04bb524f38864ecb609 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_194dad76d9b2781b6e6b7fd9b9f8dab1 = $(`<div id="html_194dad76d9b2781b6e6b7fd9b9f8dab1" style="width: 100.0%; height: 100.0%;">Jaipur Traffic: 16 vehicles</div>`)[0];
+                popup_26e0c8fd4074b04bb524f38864ecb609.setContent(html_194dad76d9b2781b6e6b7fd9b9f8dab1);
+            
+        
+
+        circle_marker_b2175dc9cc886b0a1de3121a6659fb73.bindPopup(popup_26e0c8fd4074b04bb524f38864ecb609)
+        ;
+
+        
+    
+</script>
+</html>
