@@ -1,0 +1,7 @@
+var = ("geeks","for","Geeks")
+print(var[0])
+print(var[1])
+print(var[2])
+print(var[-1])
+print(var[-2])
+print(var[-3])
